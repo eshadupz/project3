@@ -1,0 +1,8 @@
+piece row col
+Rook 6 2
+Rook 4 3
+Bishop 5 2
+Bishop 3 7
+Pawn 5 5
+Pawn 0 7
+Knight 0 0
