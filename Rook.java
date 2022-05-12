@@ -4,7 +4,7 @@ public class Rook extends ChessPiece {
 
 	public Rook() {
 
-        super( name: "-r-");
+        super("-r-");
         name = "-r-";
 	}
 
