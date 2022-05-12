@@ -1,9 +1,9 @@
 public class Bishop extends ChessPiece {
     private String name; 
 
-    public Knight() {
+    public Bishop() {
 
-        super( name: "-b-");
+        super("-b-");
         name = "-b-";
     }
 
@@ -17,7 +17,7 @@ public class Bishop extends ChessPiece {
 
 @Override
     public boolean move(int initposX, int initposY, int finalposX, int finalposY) {
-        for (int = 0; i <8;i++) {
+        for (i = 0; i <8;i++) {
             if(finalposX == (initposX + i) && ((finalposY ==(initposY+i)) || (finalposY == (initposY - i))) {
                 return true;
             }
