@@ -3,7 +3,7 @@ public class Pawn extends ChessPiece {
     private static int count = 0;
 
     public Pawn() {
-        super( name: "-p-");
+        super("-p-");
         name = "-p-";
     }
 
