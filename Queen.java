@@ -2,7 +2,7 @@ public class Queen extends ChessPiece {
 	private String name; 
 
 	public Queen() {
-		super(name: "-Q-");
+		super("-Q-");
 		name = "-Q-";
 	}
 
