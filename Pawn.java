@@ -19,7 +19,7 @@ public class Pawn extends ChessPiece {
         if (count == 0) {
             return true;
         }
-        return false
+        return false;
     }
 
     @Override
